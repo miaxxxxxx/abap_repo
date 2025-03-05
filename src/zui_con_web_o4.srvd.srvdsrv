@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_CON_WEB'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_CON_WEB'
+  }
+}
+define service ZUI_CON_WEB_O4 provider contracts odata_v4_ui {
+  expose ZC_CON_WEB;
+}
